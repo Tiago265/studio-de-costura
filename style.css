@@ -1,0 +1,41 @@
+body{
+    background-image: url();
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.login{
+    text-align: center;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 50px;
+    width: 40%;
+    background-color: aqua;
+}
+button{
+    border-radius: 80px;
+    width: 50%;
+    background-color: red;
+    color: pink;
+}
+input{
+    border-radius: 50vw;
+    width: 50%;
+    height: 30px;
+    background-color: red;
+    color: pink;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+    scale: 1.1;
+    transition-duration: 0.5s;
+}
+input:hover{
+    background-color: yellow;
+    color: black;
+    scale: 1.1;
+    transition-duration: 0.5s;
+}
