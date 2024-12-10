@@ -1,5 +1,5 @@
 body{
-    background-image: url();
+    background-color: rgb(221, 221, 50);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
@@ -10,22 +10,24 @@ a{
     text-align: center;
     flex-direction: column;
     border-style: solid;
-    border-radius: 50px;
+    border-radius: 15px;
     width: 40%;
-    background-color: aqua;
+    margin: 100px 300px;
+    padding: 50px;
 }
 button{
-    border-radius: 80px;
-    width: 50%;
+    border-radius: 10px;
+    width: 80%;
+    height: 45px;
     background-color: red;
     color: pink;
+    
 }
 input{
-    border-radius: 50vw;
+    border-radius: 10px;
     width: 50%;
     height: 30px;
-    background-color: red;
-    color: pink;
+    color: #000;
 }
 button:hover{
     background-color: yellow;
@@ -34,8 +36,14 @@ button:hover{
     transition-duration: 0.5s;
 }
 input:hover{
-    background-color: yellow;
-    color: black;
     scale: 1.1;
     transition-duration: 0.5s;
+}
+.cad{
+    border-style: solid;
+    border-radius: 10px;
+    width: 60%;
+    height: 60%;
+    padding: 50px;
+    margin: 60px 150px;
 }
